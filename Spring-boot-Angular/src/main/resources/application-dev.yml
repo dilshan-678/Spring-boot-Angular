@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/springangulardev
     username: postgres
-    password: Danidu#678@postgres
+    password: password
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -19,7 +19,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: usernamex1995@gmail.com
-    password: nacmtdlwwfgfmsqj
+    password: password
     properties:
       mail:
         smtp:
