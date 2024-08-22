@@ -19,8 +19,6 @@ export class LoginComponent {
               private authService:AuthenticationService,
               private tokenService:TokenService) {
   }
-
-
   login() {
     this.errorMsg = [];
     this.authService.authenticate({
@@ -40,7 +38,6 @@ export class LoginComponent {
 
       },
       error: (err) => {
-        console.log(err);
 
         if(err.error.validationErrors){
 
