@@ -57,7 +57,7 @@ public class BeansConfig {
         final CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowCredentials(true);
-        configuration.setAllowedOrigins(Collections.singletonList("ttp://localhost:4200"));
+        configuration.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
 
         configuration.setAllowedHeaders(Arrays.asList(
                 HttpHeaders.ORIGIN,

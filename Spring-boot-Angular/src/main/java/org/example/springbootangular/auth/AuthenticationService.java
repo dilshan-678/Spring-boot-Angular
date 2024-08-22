@@ -86,7 +86,6 @@ public class AuthenticationService {
 
     }
 
-    @Transactional
     public void activateAccount(String token) throws MessagingException {
 
         Token savedToken = tokenRepository.findByToken(token)
